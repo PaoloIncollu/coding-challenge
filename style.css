@@ -1,0 +1,68 @@
+
+body{
+    
+    background-image: url("img/background.jpg");
+    background-size:cover;
+    
+}
+.container{ 
+    margin: 30px 250px 50px 250px;
+    border-radius: 2%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 50px 100px 50px 100px;
+}
+#logo{
+    margin-top: 20px;
+    width: 20%;
+}
+header{
+    
+    padding-bottom: 2px;
+    text-align: center;
+    color: lime;
+    
+}
+
+h1{
+    font-size: 20px;
+    }
+
+    nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lime;
+    text-align: center;
+    margin-bottom: 20px;
+}
+main{
+    color: white;
+    margin: auto;
+}
+section{
+    margin-bottom: 20px;
+    
+}
+.monopattino{
+    font-size: 20px;
+}
+input[type="text"]#carica1 {
+    border: 0;
+    background-color: peachpuff;
+    width: 250px;
+    border-radius: 5px;
+}
+input[type="text"]#carica2 {
+    border: 0;
+    background-color:greenyellow;
+    width: 400px;
+    border-radius: 5px;
+}
+input[type="text"]#carica3 {
+    border: 0;
+    background-color: red;
+    border-radius: 5px;
+    width: 100px;
+}
+.freccia::before{
+    content: "↦";
+}
